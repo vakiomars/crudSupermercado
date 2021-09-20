@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">    <link rel="stylesheet" href="css/stylCrud.css">
+    <link rel="shortcut icon" type="image/jpg" href="img/icon.png">
+    <title>Cátalogo Productos</title>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="">
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            
+            <div id="cuerpo" class="container galeria">
+                <div>
+                    <h1 class="h1">Crear productos</h1>
+                </div>
+                
+                <!-------Contenedor para el texto--------->
+                <div id=contTextoCrear>
+                    <!-------<h1>Futurama</h1>----->
+                    <span id="titulo">Ingrese los datos del producto</span>
+                    <input type="text" name="nombre" class="form-control delimit" value="" id="controlHid" readonly disabled />
+                    <label class="form-label">Código: </label>
+                    <input type="text" name="Codigo" size="30" class="form-control delimit" id="inpCodigo" //pattern="David" />               
+                    <label class="form-label">Nombre producto: </label>
+                    <input type="text" name="Nombre" size="30" class="form-control delimit" id="inpNombre" />
+                    <label class="form-label">descripción: </label>
+                    <input type="text" name="descripcion" size="30" class="form-control delimit" id="inpDescripcion" />
+                    <label class="form-label">Tipo: </label>
+                    <select name="Tipo" class="form-select delimit" aria-label="Default select example" id="inpTipo" />
+                        <option> </option>
+                        <option>Lácteo</option>
+                        <option>Gaseosa</option>
+                        <option>Galletas</option>
+                    </select>
+                    <label class="form-label">Sabor: </label>
+                    <input type="text" name="Sabor" size="30" class="form-control delimit" id="inpSabor" />
+                    <label class="form-label">Marca: </label>
+                    <select name="Marca" class="form-select delimit" aria-label="Default select example" id="inpMarca">
+                        <option> </option>
+                        <option>Alpina</option>
+                        <option>Alquería</option>
+                        <option>Coca-cola</option>
+                    </select>
+                    <label class="form-label">Presentación: </label>
+                    <input type="text" name="Presentacion" size="30" class="form-control delimit" id="inpPresentacion" />
+                    <label class="form-label">Contenido Neto: </label>
+                    <input type="text" name="ContNeto" size="30" class="form-control delimit" id="inpContNeto" />
+                    <label class="form-label">Valor: </label>
+                    <input type="text" name="Valor" size="30" class="form-control delimit" id="inpValor" />
+                    <label class="form-label">Stock: </label>
+                    <input type="text" name="Stock" size="30" class="form-control delimit" id="inpStock" />
+                    <br>
+                </div>  
+                <div id="contImgCrear">
+                    <div class="input-group mb-3 px-2 py-2 rounded-pill bg-white shadow-sm">
+                        <input id="upload" type="file"  class="form-control border-0">
+                        <div class="input-group-append">
+                            <!-- <label for="upload" class="btn btn-light m-0 rounded-pill px-4"> <i class="fa fa-cloud-upload mr-2 text-muted"></i><small class="text-uppercase font-weight-bold text-muted">Escoge la foto</small></label> -->
+                        </div>
+                    </div>
+                    <div id="recevImg">
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <section  class="">
+            <div id="BotCrear">
+                <button type="button" class="btn btn-lg crearConsulta">Crear Producto</button>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer class="footer text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+            © 2021 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">CRUD asociados</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+</html>

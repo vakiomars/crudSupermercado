@@ -1,0 +1,92 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #aed269;
+}
+
+.footer {    
+    background-color: #aed269;
+    margin-top: 40px;
+}
+/***********Formulario Crear*************/
+
+.crearConsulta {
+    background-color: #724293;
+    color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+    cursor: pointer; 
+}
+
+#contImgCrear{
+    /*background-color: aqua;*/
+    width: 50%;
+    height: 80%;
+    float: right;
+    margin-top: 60px;
+}
+
+#contTextoCrear{
+    /*background-color: green;*/
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: left;
+    color: black;
+    margin-top: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 11fr);
+}
+
+#BotCrear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+}
+
+#cuerpo{
+    height: 500px;
+}
+
+
+.delimit{
+    height: 70%;
+}
+
+#controlHid{
+    border-width: 0px;
+    background-color: #f4f4f4;
+}
+
+/***************Formulario Editar*******************/
+.eliminarEditar {
+    display: inline-block;
+    background-color: #724293;
+    color: #fff;
+    width: 45%;
+}
+
+#contImgEditar{
+    /*background-color: aqua;*/
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 70px;
+}
+
+#contTextoEditar{
+    /*background-color: green;*/
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 11fr);
+}

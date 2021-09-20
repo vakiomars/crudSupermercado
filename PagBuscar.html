@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">    <link rel="stylesheet" href="css/stylCrud.css">
+    <link rel="shortcut icon" type="image/jpg" href="img/icon.png">
+    <title>Cátalogo Productos</title>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="">
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="filtroBuscar" class="">
+            <div id="ContFiltro">
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label">Código: </label>
+                    </div>
+                    <div class="col">
+                        <label class="form-label">Tipo: </label>
+                    </div>
+                    <div class="col">
+                        <label class="form-label">Marca: </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" name="Codigo" class="form-control delimit" size="30" id="BuscCodigo">
+                    </div>
+                    <div class="col">
+                        <select name="Tipo" class="form-select delimit" id="BuscTipo">
+                            <option> </option>
+                            <option>Lácteo</option>
+                            <option>Gaseosa</option>
+                            <option>Galletas</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <select name="Marca" class="form-select delimit" id="BuscMarca">
+                            <option> </option>
+                            <option>Alpina</option>
+                            <option>Alquería</option>
+                            <option>Coca-cola</option>
+                        </select>
+                    </div>
+                </div>  
+            </div>
+            <div id="ContBot">
+                <button type="button" class="btn btn-lg crearConsulta" >Buscar Producto</button>
+            </div>
+        </section>
+
+        <section>
+            <div id="ResultBusqueda" class="container galeria">
+                
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/papas_margarita.jpeg" alt="">
+                            <div>
+                                <h5 class="card-title">Paquete surtido margarita</h5>
+                                <p class="card-text">Paquete de papas surtidas 
+                                    de 24 paquetes de sabor pollo, natural y limon.</p>
+                                    <a href="#" class="btn eliminarEditar">Editar</a>
+                                    <a href="#" class="btn eliminarEditar">Eliminar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/leche.jpeg" alt="">
+                            <div>
+                                <h5 class="card-title">Carton leche Alpina</h5>
+                                <p class="card-text">Leche Alpina entera 
+                                    larga vida. Carton tetrapack reciclable. Un litro de contenido neto.</p>
+                                    <a href="#" class="btn eliminarEditar">Editar</a>
+                                    <a href="#" class="btn eliminarEditar">Eliminar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/tomates.jpeg" alt="">
+                            <div>
+                                <h5 class="card-title">Tomate chonto</h5>
+                                <p class="card-text">Some quick example text to build 
+                                    on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn eliminarEditar">Editar</a>
+                                    <a href="#" class="btn eliminarEditar">Eliminar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+            © 2021 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">CRUD asociados</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+</html>

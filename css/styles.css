@@ -1,0 +1,63 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #aed269;
+}
+
+.crearConsulta {
+    background-color: #724293;
+    color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+    cursor: pointer;
+    margin: 40px 0px 0px 40px;  
+}
+
+
+.box{
+    padding: 15px;
+}
+
+.galeria {
+    margin-top: 40px;
+}
+
+.productoIzq {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 160px;
+}
+
+.productoDer {
+    display: inline-block;
+}
+
+.productoCenter {
+    display: inline-block;
+    margin-right: 160px;
+}
+
+.eliminarEditar {
+    display: inline-block;
+    background-color: #724293;
+    color: #fff;
+    width: 45%;
+    margin-right: 10px;
+}
+
+.footer {    
+    background-color: #aed269;
+    margin-top: 40px;
+}
+
+.marginFil{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button{
+
+}
+
